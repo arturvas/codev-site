@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CODEV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+      <div class="container">
+        <h1 class="navbar-brand m-0 fs-1 section-title extra-bold">CODEV</h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu__navegacao"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu__navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold">
+              <a href="#sobre__a__codev" class="nav-link">
+                <i class="bi bi-house-door me-1"></i>
+                Sobre</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#estrategia" class="nav-link">
+                <i class="bi bi-calendar-check me-1"></i>
+                Estratégia</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#parceiros" class="nav-link">
+                <i class="bi bi-card-text me-1"></i>
+                Parceiros</a
+              >
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#fale__conosco" class="nav-link">
+                <i class="bi bi-chat-left-text me-1"></i>
+                Fale conosco</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="cabecalho"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+    >
+      <section id="sobre__a__codev" class="pb-5">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner d-flex text-center">
+            <div class="carousel-item active" data-bs-interaval="1000">
+              <img
+                class="img-fluid"
+                src="img_ex/slide/pessoa-segurando-smartphone-enquanto-usa-laptop.jpg"
+                alt="Pessoa segurando smartphone enquanto usa laptop"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interaval="1000">
+              <img
+                class="img-fluid"
+                src="img_ex/slide/mulher-sentada-enquanto-opera-o-macbook-pro.jpg"
+                alt="Mulher sentada enquanto opera o macbook pro"
+              />
+            </div>
+            <div class="carousel-item" data-bs-interaval="1000">
+              <img
+                class="img-fluid"
+                src="img_ex/slide/duas-mulheres-olhando-para-o-codigo-no-laptop.jpg"
+                alt="Duas mulheres olhando para o codigo no laptop"
+              />
+            </div>
+          </div>
+          <button
+            type="button"
+            class="carousel-control-prev"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            type="button"
+            class="carousel-control-next"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+        </div>
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="img_ex/escritorio.jpg"
+                  class="d-block w-100 rounded"
+                  alt="Foto do espaço interno do restaurante"
+                />
+              </div>
+              <div class="col-md-7 mt-3 mt-md-0">
+                <h2 class="section-title">
+                  Sobre <span class="text-colorful">a CODEV</span>
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Perspiciatis, vitae repudiandae, deleniti, reiciendis dolores
+                  aliquid maiores ex ipsa vel ipsam magni amet necessitatibus
+                  cumque eius repellat debitis consequuntur ducimus dolorem.
+                </p>
+                <h3 class="section-title">
+                  Como <span class="text-colorful">atuamos</span>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                  ad laboriosam repudiandae totam autem voluptatibus quidem vel
+                  laborum excepturi repellendus officiis repellat facere,
+                  quibusdam dolorum cumque reprehenderit vero quod illo?
+                </p>
+                <ul>
+                  <li>Item 1</li>
+                  <li>Item 2</li>
+                  <li>Item 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="estrategia" class="pt-5 pb-5">
+        <div class="container py-5">
+          <div class="row">
+            <h2 class="section-title text-center pb-3">
+              O que <span class="text-colorful">valorizamos</span>
+            </h2>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <img
+                class="d-block w-100 rounded mb-2"
+                src="img_ex/estrategia/foto-de-vista-superior-de-pessoas-perto-de-uma-mesa-de-madeira.jpg"
+                alt="Vista superior de pessoas perto de uma mesa de madeira"
+              />
+              <h3 class="section-title text-colorful fs-4 text-center">
+                <i class="bi bi-lightbulb-fill"></i>
+                Inovação
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat iusto exercitationem excepturi distinctio veritatis
+                dolorum cum nobis. Odio omnis laboriosam totam ducimus provident
+                reprehenderit. Officiis vero modi asperiores temporibus aut?
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                class="d-block w-100 rounded mb-2"
+                src="img_ex/estrategia/mac-exibindo-grafico-de-linha-colocado-na-mesa.jpg"
+                alt="Exibindo grafico de linha colocado na mesa"
+              />
+              <h3 class="section-title text-colorful fs-4 text-center">
+                <i class="bi bi-bar-chart-fill"></i>
+                Resultados
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat iusto exercitationem excepturi distinctio veritatis
+                dolorum cum nobis. Odio omnis laboriosam totam ducimus provident
+                reprehenderit. Officiis vero modi asperiores temporibus aut?
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img
+                class="d-block w-100 rounded mb-2"
+                src="img_ex/estrategia/homens-conversando-sentados-na-cadeira.jpg"
+                alt="Homens conversando sentados na cadeira"
+              />
+              <h3 class="section-title text-colorful fs-4 text-center">
+                <i class="bi bi-people-fill"></i>
+                Relacionamento
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat iusto exercitationem excepturi distinctio veritatis
+                dolorum cum nobis. Odio omnis laboriosam totam ducimus provident
+                reprehenderit. Officiis vero modi asperiores temporibus aut?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="parceiros" class="pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center mb-5">
+              Onde <span class="text-colored">atuamos</span>
+            </h2>
+          </div>
+          <div class="row">
+            <aside class="col-md-2">
+              <nav class="nav nav-pills flex-column nav-parceiros">
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#agro"
+                  type="button"
+                  class="fw-bold text-start nav-link text-colorful active"
+                >
+                  Agro
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#tech"
+                  type="button"
+                  class="fw-bold text-start nav-link text-colorful"
+                >
+                  Tech
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#audio"
+                  type="button"
+                  class="fw-bold text-start nav-link text-colorful"
+                >
+                  Audio
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#medicina"
+                  type="button"
+                  class="fw-bold text-start nav-link text-colorful"
+                >
+                  Medicina
+                </button>
+              </nav>
+            </aside>
+            <div class="col-md-10">
+              <div class="tab-content">
+                <div id="agro" class="tab-pane active">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/agro/agro11.jpg"
+                        alt="agro logo logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">GreenFarm</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/agro/agro2.jpg"
+                        alt="agro logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Agro Farm</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/agro/agro3.png"
+                        alt="agro logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Agro</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/agro/agro11.jpg"
+                        alt="agro logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">GreenFarm</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/agro/agro5.jpg"
+                        alt="agro logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Plantor</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/agro/agro55.jpg"
+                        alt="agro logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">
+                        Farmer's Market
+                      </h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="tech" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="https://img.freepik.com/vetores-gratis/design-de-logotipo-tecnologico_1424-39.jpg?w=1380&t=st=1695402309~exp=1695402909~hmac=41d87642d0e25ffbcc63a615bb7d49a4fc627f1b3eb1489c9fae2ebe04f54a07"
+                        alt="tech logologo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Tech Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/tech/tech2.jpg"
+                        alt="tech logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Tech</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/tech/tech4.jpg"
+                        alt="tech logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Tech</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="audio" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/audio/audio1.jpg"
+                        alt="audio logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Audio Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/audio/audio2.jpg"
+                        alt="audio logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Audio Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/audio/audio3.jpg"
+                        alt="audio logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Audio Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/audio/audio4.jpg"
+                        alt="audio logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Audio Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/audio/audio3.jpg"
+                        alt="audio logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Audio Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div id="medicina" class="tab-pane">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/medicina/medicina1.jpg"
+                        alt="Medicine Logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Medicine Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/medicina/medicina2.jpg"
+                        alt="Medicine Logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Medicine Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/medicina/medicina3.jpg"
+                        alt="Medicine Logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Medicine Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/medicina/medicina4.jpg"
+                        alt="Medicine Logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Medicine Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <img
+                        class="d-block w-100"
+                        src="img_ex/parceiros/medicina/medicina2.jpg"
+                        alt="Medicine Logo"
+                      />
+                      <h5 class="text-colorful fw-bold mt-2">Medicine Logo</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="fale__conosco" class="py-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title text-center">
+              Fale <span class="text-colorful">Conosco</span>
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-7 mb-5">
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label fw-bold"
+                    >Seu <span class="text-colorful">nome</span></label
+                  >
+                  <input type="text" id="nome" class="form-control" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold"
+                    >Seu <span class="text-colorful">e-mail</span></label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="telefone" class="form-label fw-bold"
+                    >Seu <span class="text-colorful">telefone</span></label
+                  >
+                  <input type="tel" id="telefone" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label for="mensagem" class="form-label fw-bold"
+                    >Sua <span class="text-colorful">mensagem</span></label
+                  >
+                  <textarea
+                    id="mensagem"
+                    class="form-control"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn fw-bold">Enviar</button>
+              </form>
+            </div>
+            <div class="col-md-5">
+              <div class="row">
+                <h3 class="section-title fs-4 text-colorful">
+                  <i class="bi bi-hand-thumbs-up-fill"></i>
+                  Redes sociais
+                </h3>
+                <ul class="social-links">
+                  <li class="fs-5">
+                    <a href="#"><i class="text-colorful bi bi-facebook"></i></a>
+                  </li>
+                  <li class="fs-5 mx-2">
+                    <a href="#"
+                      ><i class="text-colorful bi bi-instagram"></i
+                    ></a>
+                  </li>
+                  <li class="fs-5">
+                    <a href="#"><i class="text-colorful bi bi-whatsapp"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row mt-4">
+                <h3 class="section-title fs-4 text-colorful">
+                  <i class="bi bi-cursor-fill"></i>
+                  Endereço
+                </h3>
+                <p>
+                  Rua Teste Exemplo, nº 123, Bairro Bootstrap - Boa Vista - RR
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="py-3">
+        <p class="text-center m-0">© 2023 Todos os direitos reservados</p>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- abaixo é o cdn para o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Abaixo é o plugin de máscara para o jQuery -->
+    <script src="js/jquery.mask.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#telefone").mask("(00) 0 0000-0000");
+      });
+    </script>
+  </body>
+</html>
